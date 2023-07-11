@@ -13,6 +13,7 @@ Also for other .fbx models that does not have the same joint names as this proje
 
 ## From .Npy file to .CSV file
 The .NPY file you get from SMPL model normally contains the root translation and motion data, and using the test.py we could extract these two data and formed them into a .csv file that the C++ solution reads and analyzes.  
+  
 The only changes that need to be done on the test.py will be the file names of .Npy and .CSV.
 
 
