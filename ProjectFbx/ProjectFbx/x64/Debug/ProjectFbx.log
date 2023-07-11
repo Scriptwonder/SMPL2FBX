@@ -1,0 +1,7 @@
+﻿  FbxConverter.cpp
+C:\Users\11030\source\repos\ProjectFbx\ProjectFbx\FbxConverter.cpp(202,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\11030\source\repos\ProjectFbx\ProjectFbx\FbxConverter.cpp(206,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\11030\source\repos\ProjectFbx\ProjectFbx\FbxConverter.cpp(218,47): warning C4101: 'e': unreferenced local variable
+C:\Users\11030\source\repos\ProjectFbx\ProjectFbx\FbxConverter.cpp(233,47): warning C4101: 'e': unreferenced local variable
+  ProjectFbx.vcxproj -> C:\Users\11030\source\repos\ProjectFbx\x64\Debug\ProjectFbx.exe
+  0 File(s) copied
