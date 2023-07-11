@@ -6,8 +6,9 @@ Inspired by [SMPL-to-FBX](https://github.com/softcat477/SMPL-to-FBX) but by usin
 Download FBX SDK from [Autodesk](https://www.autodesk.com/developer-network/platform-technologies/fbx-sdk-2020-3-4), then link the include and lib in your VS2022 Project
 
 # Instruction
-This C++ Solution takes a .fbx model and a .csv file as inputs and output a new .fbx model.   
-Remember to change the csvFilePath, fbxFilePath, and fbxFilePath1(outputPath) before using. Also for other .fbx models that does not have the same joint names as this project, remember to edit the joints name as well.
+This C++ Solution takes a .fbx model and a .csv file as inputs and output a new .fbx model. Remember to change the csvFilePath, fbxFilePath, and fbxFilePath1(outputPath) before using.  
+
+Also for other .fbx models that does not have the same joint names as this project, remember to edit the joints name as well.
 (PS: For the special needs of my project, the rotation changes in the Pelvis's X and Z coordinates are locked. You can unlock it anytime in AddAnimation())
 
 ## From .Npy file to .CSV file
