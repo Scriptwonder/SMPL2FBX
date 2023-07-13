@@ -1,4 +1,5 @@
 # SMPL2FBX
+![](gif1.gif)
 A C++ Solution that converts an SMPL data to FBX animation file  
 Inspired by [SMPL-to-FBX](https://github.com/softcat477/SMPL-to-FBX) but by using C++ library it solved gimbal lock problem in long complex animations.
 
