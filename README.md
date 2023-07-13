@@ -12,6 +12,8 @@ This C++ Solution takes a .fbx model and a .csv file as inputs and output a new 
 Also for other .fbx models that does not have the same joint names as this project, remember to edit the joints name as well.
 (PS: For the special needs of my project, the rotation changes in the Pelvis's X and Z coordinates are locked. You can unlock it anytime in AddAnimation())
 
+![](image1.png)
+
 ## From .Npy file to .CSV file
 The .NPY file you get from SMPL model normally contains the root translation and motion data, and using the test.py we could extract these two data and formed them into a .csv file that the C++ solution reads and analyzes.  
   
